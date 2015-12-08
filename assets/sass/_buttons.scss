@@ -1,0 +1,28 @@
+.pushme {
+	width: 150px;
+	background-color: $button-color;
+	font-family: $font-family;
+	color: $font-color;
+	margin: 5px;
+	border: solid 4px $accent-color;
+	font-size: $font-size;
+	padding: 5px;
+}
+
+
+.push1 {
+	@extend .pushme;
+	border-radius: 0;
+	&:hover {
+		color: $accent-color;
+	}
+}
+
+.push2 {
+	@extend .pushme;
+	border-radius: 50px;
+	&:hover {
+		background-color: $font-color;
+		color: $button-color;
+	}
+}

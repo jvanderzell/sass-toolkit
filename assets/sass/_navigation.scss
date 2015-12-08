@@ -1,0 +1,38 @@
+
+.mainmenu {
+	 a {
+	background-color: $button-color;
+	color: $font-color;
+	font-family: $font-family;
+	text-align: center;
+	font-size: 40px;
+	padding: 10px;
+	width: 200px;
+	font-size: 20px;
+	text-decoration: none;
+	display: inline-block;
+	}
+li a:hover {
+	background-color: $accent-color;
+	color: $font-color;
+}
+}
+
+.submenu a{
+	background-color: $button-color;
+	color: $font-color;
+	font-family: $font-family;
+	text-align: center;
+	font-size: 40px;
+	padding: 10px;
+	width: 200px;
+	font-size: 20px;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.submenu.hide {
+	display:none;
+}
+
+
